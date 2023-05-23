@@ -1,0 +1,15 @@
+app:
+  name: johne8ns-poi-gateway-app
+  namespace: johne8ns
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/johne8ns-gateway
+  org: Summit23Janus2
+  name: johne8ns-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: johne8ns/poi-gateway-app
+  tag: latest
